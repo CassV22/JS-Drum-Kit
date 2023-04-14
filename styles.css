@@ -2,9 +2,9 @@ body {
     background-image: url("background_img.jpg");
     background-position: center;
     background-repeat: no-repeat;
+    font-family: 'Glory', sans-serif;
     
 }
-
 
 .key-container {
     display: flex;
@@ -22,7 +22,13 @@ body {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.3);
     padding-top: 10px;
+    transition: all 0.07s;
     
+}
+
+.playing {
+    transform: scale(1.1);
+    border-image: url("glitter.jpg") 10 round;
 }
 
 kbd {
@@ -36,4 +42,8 @@ kbd {
     padding-top: 5px;
     color: #FFA7F1;
     font-weight: bold;
+}
+
+.playing {
+    
 }
